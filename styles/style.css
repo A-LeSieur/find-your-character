@@ -1,0 +1,23 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.social {
+    width: 100px;
+}
+
+.logo {
+    width: 100px;
+}
+
+#hero-img {
+    max-width: 100%;
+}
