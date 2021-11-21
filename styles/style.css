@@ -19,6 +19,19 @@ footer {
     background-color: #00BBE0;
 }
 
+footer h3 {
+    color: #ffffff;
+}
+
+footer h3 a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+footer h3 a:hover {
+    color: #FF99D6;
+}
+
 header {
     background-color: #00BBE0;
 }
@@ -39,13 +52,16 @@ main section {
     text-align: center;
 }
 
-nav a{
+nav a {
     text-align: center;
+    color: #ffffff;
+    text-decoration: none;
 }
 nav a:hover {
-    background-color: #AFFDFD;
+    color: #FF99D6;
 }
 
 .social {
-    width: 100px;
+    width: 80px;
+    float: right;
 }
