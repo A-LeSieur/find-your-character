@@ -33,11 +33,28 @@ footer h3 a:hover {
 }
 
 header {
-    background-color: #00BBE0;
+    display: flex;
+    justify-content: space-between;
+    /*border-bottom: 10px solid #00BBE0;*/
+}
+
+header a {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    /*border: 10px solid #00BBE0;*/
+}
+
+header nav {
+    text-align: center;
 }
 
 #hero-img {
-    max-width: 100%;
+    display: block;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -45,17 +62,27 @@ header {
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
+    
 }
 
 main section {
     text-align: center;
 }
 
+nav {
+    min-width: 80vw;
+    background-color: #00BBE0;
+    font-family: Verdana;
+}
+
 nav a {
     text-align: center;
     color: #ffffff;
     text-decoration: none;
+    font-size: 25px;
+    padding: 25px;
+
 }
 nav a:hover {
     color: #FF99D6;
@@ -64,4 +91,11 @@ nav a:hover {
 .social {
     width: 80px;
     float: right;
+}
+
+#website_title {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
 }
