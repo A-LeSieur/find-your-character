@@ -17,6 +17,8 @@ body {
 
 footer {
     background-color: #00BBE0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer h3 {
@@ -30,6 +32,16 @@ footer h3 a {
 
 footer h3 a:hover {
     color: #FF99D6;
+}
+
+.footer_info {
+    text-align: left;
+    margin-left: 2em;
+}
+
+.footer_contact_us {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 header {
@@ -90,7 +102,12 @@ nav a:hover {
 
 .social {
     width: 80px;
-    float: right;
+    padding: 0.5em;
+}
+
+.social_container {
+    text-align: right;
+    margin-right: 2em;
 }
 
 #website_title {
