@@ -71,6 +71,25 @@ header nav {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    padding-top: 1em;
+    font-size: 30px;
+}
+
+#Home-Text {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 3em;
+}
+
+#Home-Text h2 {
+    font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
+}
+
+#Home-Text h3 {
+    font-size: 20px;
 }
 
 .logo {
